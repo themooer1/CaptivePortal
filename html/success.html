@@ -1,0 +1,36 @@
+-<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Wi-Fi Login</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/animation.css">
+    <script src="../js/animation.js"></script>
+  </head>
+  
+  <body onload="init();">
+    <div id="pacman"></div>
+    <div id="tidepod"></div>
+    <div class="login_box min_width">
+      <div class="top_stripe">
+        <b>Connected!</b>
+      </div>
+      <div class="inner_panel success">
+        <form action="javascript:void(0);" onsubmit="location = 'https://google.com';" accept-charset="UTF-8" role="form" >
+          <fieldset>
+            
+            <img id=rick src="../assets/rick.png">
+            <p>You may now close this window.</p>
+            <div class="full_width_btn_group">
+              <input class="tertiary" name="accept" type="submit" value="Close">  
+            </div>
+            
+            <input name="auth_user" type="text" class="hidden" value="guest">
+
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

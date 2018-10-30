@@ -1,0 +1,40 @@
+/*
+Asset descriptions for success animation.
+*/
+
+#pacman {
+  background-image: url("../assets/pacman.gif");
+  position: absolute;
+/*  top:75%;*/
+  left:-100px;
+  
+  width: 7em;
+  height: 7em;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+#tidepod {
+  background-image: url("/assets/tidepod.gif");
+  position: absolute;
+/*  top: 75%;*/
+/*  top: 24.5em;*/
+  left:0px;
+  
+  width: 5em;
+  height: 5em;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#rick {
+  width:400px;
+  
+}
+
+.login_box {
+  width: 20%;
+}
+
+

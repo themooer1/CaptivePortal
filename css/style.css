@@ -1,0 +1,111 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url("https://fonts.googleapis.com/css?family=Libre+Franklin");
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+@import url('https://cdn.rawgit.com/Chalarangelo/mini.css/v3.0.0/dist/mini-default.min.css');
+
+
+body {
+  background-color: #3a3a79;
+  background-image: url("https://source.unsplash.com/1920x1080");
+  background-size: auto;
+  font-family: "Libre Franklin", sans-serif;
+  
+
+}
+
+.login_box {
+  width: 85%;
+  /*min-height: 420px;*/
+  margin: 50px auto auto auto;
+  padding 25px;
+  border-radius: 10px;
+  background-color: rgba(38, 38, 35, 0.7);
+  
+}
+
+.login_box.min_width {
+  width: 10%;
+  min-width: 450px;
+}
+
+.login_box .inner_panel {
+  color: #7FB069;
+  font-size: 10pt;
+  padding: 10px;
+  
+}
+
+.login_box .inner_panel > * {
+  border: 10px;
+  border-color: #00af74;
+  background-color: rgb(255, 255, 255);
+  font-size: 5em;
+}
+
+
+.login_box input[type=text], input[type=password] {
+  height: 44px;
+}
+
+
+.top_stripe {
+  background-color: rgba(38, 38, 35, 0.5);
+  width: 100%;
+  min-height: 55px;
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+  text-align: center;
+  color: #C30F3F;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  font-size: 2em;
+}
+
+.failure {
+  background-color: rgba(239, 13, 13, 0.5)
+}
+
+.success {
+  background-color: rgba(173, 255, 47, 0.5);
+}
+
+
+.full_width_btn_group {
+  align-content: center;
+}
+.full_width_btn_group input {
+  width: 100%;
+  margin:auto;
+}
+
+
+.hidden {
+  display: none;
+}
+
+.invisible {
+  opacity: 0;
+}
+
+.overlay {
+  position: fixed;
+  height: 100%;
+  z-index: 300;
+  width:100%;
+  top:0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.74);
+  display: table;
+  -webkit-transition: opacity 3s ease-in-out;
+  -moz-transition: opacity 3s ease-in-out;
+  -ms-transition: opacity 3s ease-in-out;
+  -o-transition: opacity 3s ease-in-out;
+  opacity: 1;
+}
+
+.overlay .overlay_message {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  color: white;
+}
